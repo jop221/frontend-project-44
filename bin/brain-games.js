@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import
-{ name } from '../src/cli.js';
+import start from '../src/cli.js';
 
-console.log(name);
+start();
