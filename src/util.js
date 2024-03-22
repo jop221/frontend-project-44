@@ -87,5 +87,5 @@ export function getAnswer (num1 ,sign,num2) {
     const num = getRandomNumber(1, 100);
     const correctAnswer = isPrime(num) ? 'yes' : 'no';
     const question = String(num);
-    return [question, correctAnswer;
+    return [question, correctAnswe];
   };
