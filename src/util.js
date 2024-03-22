@@ -1,6 +1,5 @@
 // src/cli.js
 import readlineSync from 'readline-sync';
-import start from './cli.js';
 const roundCount = 3;
 export function playGame (rules, generateRound) {
   console.log('Welcome to the Brain Games!');
@@ -43,5 +42,18 @@ export function getAnswer (num1 ,sign,num2) {
     const question = `${num1} ${sign} ${num2}`;
     const answer = getAnswer(num1, sign, num2);
     return [question, String(answer)];
-    };
+  };
+  function  calculateGCD (num1, num2) { 
+    if (num2 > num1) return calculateGCD(num2, num1);
+    if (!num2) return num1;
+    return calculateGCD(num2, num1 % num2);
+  };
+  export function RoundGCD () {
+    const num1 = getRandomNumber(1, 50);
+    const num2 = getRandomNumber(1, 50);
+    const gcd = calculateGCD(num1,num2);
+    const question = `${num1} ${num2}`;
+    const answer = String(gcd);
+    return [question, answer];
+  };
   
