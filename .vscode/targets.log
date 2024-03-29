@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Mar 22 15:49:08 2024
+# Make data base, printed on Fri Mar 29 12:43:21 2024
 
 # Variables
 
@@ -87,13 +87,13 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 55589
+VSCODE_PID = 4565
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/hex16:@/tmp/.ICE-unix/2687,unix/hex16:/tmp/.ICE-unix/2687
+SESSION_MANAGER = local/hex16:@/tmp/.ICE-unix/2019,unix/hex16:/tmp/.ICE-unix/2019
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,7 +129,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = 4ced6fb338384f759398c6fa985edcd2
+INVOCATION_ID = 9b100521fefc43deaa03e38dede1f1a1
 # environment
 USERNAME = student153
 # environment
@@ -157,7 +157,7 @@ ASDF_DIR = /opt/asdf
 # makefile
 .DEFAULT_GOAL := install
 # environment
-SYSTEMD_EXEC_PID = 2709
+SYSTEMD_EXEC_PID = 2042
 # environment
 DISPLAY = :1
 # environment
@@ -167,9 +167,9 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2429
+MANAGERPID = 1769
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 55589
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4565
 # environment
 _ = /usr/share/code/code
 # environment
@@ -177,7 +177,7 @@ XDG_RUNTIME_DIR = /run/user/1002
 # environment
 GPG_AGENT_INFO = /run/user/1002/gnupg/S.gpg-agent:0:1
 # environment
-JOURNAL_STREAM = 8:39168
+JOURNAL_STREAM = 8:21046
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -264,6 +264,13 @@ brain-progression:
 #  recipe to execute (from 'makefile', line 17):
 	node bin/brain-progression.js
 
+brain-prime:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 19):
+	node bin/brain-prime.js
+
 brain-even:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -274,7 +281,7 @@ brain-even:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2024-03-22 15:42:02.372106038
+#  Last modified 2024-03-22 15:49:58.983939431
 #  File has been updated.
 #  Successfully updated.
 
@@ -297,25 +304,25 @@ brain-calc:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 13):
- 
-make: *** No rule to make target 'all'.  Stop.
-
 	node bin/brain-calc.js
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/22=0%
+# Load=13/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 260 B / avg = 9 B
-# current buf: size = 8162 B / used = 260 B / count = 27 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 272 B / avg = 9 B
+# current buf: size = 8162 B / used = 272 B / count = 28 / avg = 9 B
 
-# strcache performance: lookups = 39 / hit rate = 30%
+# strcache performance: lookups = 41 / hit rate = 31%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=0/39=0%
-# Finished Make data base on Fri Mar 22 15:49:08 2024
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# Load=28/8192=0%, Rehash=0, Collisions=0/41=0%
+# Finished Make data base on Fri Mar 29 12:43:21 2024
 
  

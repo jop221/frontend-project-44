@@ -21,6 +21,13 @@ export function playGame (rules, generateRound) {
       }
     }
 };
+const isEven = (num) => num % 2 === 0;
+
+export const generateRound = () => {
+  const question = getRandomNumber(1, 100);
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  return [question, correctAnswer];
+};
 export const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 export function getAnswer (num1 ,sign,num2) {
   switch (sign) {
