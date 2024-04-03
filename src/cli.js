@@ -6,5 +6,5 @@ const start = () => {
     console.log(`Hello, ${userName}!`);
   };
   
-  export default start;
+export default start;
 
