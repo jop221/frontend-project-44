@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { playGame } from '../src/games/even.js';
 import { RoundGCD } from '../src/games/gcd.js';
 

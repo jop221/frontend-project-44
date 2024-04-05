@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 import { playGame } from '../src/games/even.js';
 import { Roundprime } from '../src/games/prime.js';
 
