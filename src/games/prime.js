@@ -7,7 +7,7 @@ const isPrime = (num) => {
   }
   return true;
 };
-export function Roundprime() {
+export default function Roundprime() {
   const num = getRandomNumber(1, 100);
   const correctAnswer = isPrime(num) ? 'yes' : 'no';
   const question = String(num);

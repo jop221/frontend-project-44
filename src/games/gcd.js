@@ -5,7 +5,7 @@ function calculateGCD(num1, num2) {
   if (!num2) return num1;
   return calculateGCD(num2, num1 % num2);
 }
-export function RoundGCD() {
+function RoundGCD() {
   const num1 = getRandomNumber(1, 50);
   const num2 = getRandomNumber(1, 50);
   const gcd = calculateGCD(num1, num2);
@@ -13,3 +13,4 @@ export function RoundGCD() {
   const answer = String(gcd);
   return [question, answer];
 }
+export default RoundGCD;

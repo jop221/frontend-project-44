@@ -7,7 +7,7 @@ const generateProgression = (randomFirstNum, minLength, step) => {
   }
   return resultProgression;
 };
-export function Roundprodression() {
+function Roundprodression() {
   const randomFirstNum = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 5);
   const minLength = randomFirstNum + (step * 10);
@@ -20,3 +20,4 @@ export function Roundprodression() {
 
   return [question, correctAnswer];
 }
+export default Roundprodression;

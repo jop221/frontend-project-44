@@ -5,6 +5,7 @@ const start = () => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
 };
+const roundCount = 3;
 export function playGame(rules, generateRound) {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
