@@ -1,4 +1,4 @@
-import { playGame, getRandomNumber } from '../games/even.js';
+import { getRandomNumber } from '../games/even.js';
 export function getAnswer (num1 ,sign,num2) {
   switch (sign) {
       case '+':

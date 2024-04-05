@@ -1,4 +1,4 @@
-import { playGame, getRandomNumber } from '../games/even.js';
+import { getRandomNumber } from '../games/even.js';
 const isPrime = (num) => {
     if (num === 0 || num === 1) return false;
     for (let i = 2; i < num; i += 1) {

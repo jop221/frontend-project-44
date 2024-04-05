@@ -1,4 +1,4 @@
-import { playGame, getRandomNumber } from '../games/even.js';
+import { getRandomNumber } from '../games/even.js';
 function  calculateGCD (num1, num2) { 
     if (num2 > num1) return calculateGCD(num2, num1);
     if (!num2) return num1;

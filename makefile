@@ -10,8 +10,11 @@ install-deps:
 test:
 	npm test
 
+test-coverage:
+	npm test -- --coverage --coverageProvider=v8	
+
 lint:
-	npx eslint	.
+	npx eslint	
 
 lint-fix:
 	npx eslint . --fix
@@ -35,4 +38,7 @@ brain-progression:
 	node bin/brain-progression.js
 
 brain-prime:
-	node bin/brain-prime.js	
+	node bin/brain-prime.js
+
+cli:
+	node /home/student161/frontend-project-44/src/cli.js

@@ -1,4 +1,4 @@
-import { playGame, getRandomNumber } from '../games/even.js';
+import { getRandomNumber } from '../games/even.js';
 const generateProgression = (randomFirstNum, minLength, step) => {
     const resultProgression = [];
     for (let i = randomFirstNum; i < minLength; i += step) {
